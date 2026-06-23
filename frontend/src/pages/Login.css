@@ -1,0 +1,62 @@
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ink);
+  padding: 20px;
+}
+
+.login__card {
+  background: var(--paper-raised);
+  border-radius: 14px;
+  padding: 32px 28px;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.35);
+}
+
+.login__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.login__brand-mark {
+  color: var(--amber-deep);
+  font-size: 1.5rem;
+}
+
+.login__tagline {
+  margin: -8px 0 4px;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.login__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.login__field input {
+  padding: 10px 12px;
+  border: 1px solid var(--paper-line);
+  border-radius: 7px;
+  font-weight: 400;
+  color: var(--ink);
+}
+
+.login__field input:focus {
+  outline: none;
+  border-color: var(--ink);
+}

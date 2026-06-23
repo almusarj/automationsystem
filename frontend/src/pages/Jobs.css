@@ -1,0 +1,53 @@
+.ticket-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.job-ticket__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.job-ticket__desc {
+  font-weight: 600;
+  font-size: 0.94rem;
+}
+
+.job-ticket__badges {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.job-ticket__meta {
+  display: flex;
+  gap: 6px;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  flex-wrap: wrap;
+}
+
+.job-ticket__footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.job-ticket__cost {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 0.88rem;
+}
+
+.job-ticket__invoiced {
+  font-size: 0.72rem;
+  color: var(--sage-deep);
+  background: rgba(92, 122, 92, 0.14);
+  padding: 2px 8px;
+  border-radius: 100px;
+  font-weight: 600;
+}
